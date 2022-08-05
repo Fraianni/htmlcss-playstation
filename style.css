@@ -1,3 +1,26 @@
-.fixed-width {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 115.59px;
+}
+
+.fi-fixed-width {
     width: 100px;
+}
+
+.fi-bg-img {
+    background-image: url('img/jumbo-bg.png');
+    background-size: cover;
+    background-position: top;
+}
+
+#fi-jumbo-content {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.show {
+    position: static;
 }
