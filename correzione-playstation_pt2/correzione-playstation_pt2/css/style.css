@@ -1,0 +1,90 @@
+/* generics */
+
+:root{
+  --ps-blue: #0072ce;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* utilities */
+
+.btn{
+  border-radius: 25px;
+}
+
+
+/* content */
+
+.ac-sony-logo{
+  width: 75px;
+}
+
+#jumbotron{
+  background-image: url('../img/jumbo-bg.png');
+  background-size: cover;
+  background-position: top;
+}
+#jumbotron-content {
+  margin-top: 15rem;
+}
+
+#jumbotron-content a {
+ background-color: #cd3d0f;
+ color: #fff;
+}
+
+/* remove border from header dropdowns  */
+.nav-item.dropdown .btn:focus-visible,
+.nav-item.dropdown .btn:focus,
+.nav-item.dropdown .btn:hover {
+  border-width: 0px;
+}
+
+
+/* override the display: block 
+when a navigation dropdown shows its inner links */
+#navigation .dropdown-menu.show {
+  display: flex;
+}
+
+#playstation-5 h4{
+  color: var(--ps-blue);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#playstation-5 h3 {
+  color: #666;
+  font-size: 1rem;
+}
+
+#playstation-5 h2 {
+  font-size: 2.7rem;
+}
+
+#playstation-5 .col-md a{
+  text-decoration: none;
+  color: #666;
+}
+
+#playstation-5 .col-md a:hover{
+  border-bottom: 1px solid var(--ps-blue);
+}
+
+#playstation-plus{
+  background-color: #bebcbb;
+}
+
+#playstation-plus a {
+    background-color: rgba(255, 255, 255, 0.5);
+      color: var(--ps-blue);
+}
+
